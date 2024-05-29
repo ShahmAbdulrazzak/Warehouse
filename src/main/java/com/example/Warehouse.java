@@ -20,7 +20,6 @@ public class Warehouse {
 
         //printInventory();
         //printProducts();
-        //printProductQuantity();
 
         Map<String, Integer> inventoryMap = new HashMap<>();
         for (Article item : inventoryArticles) {
@@ -145,8 +144,6 @@ public class Warehouse {
             System.out.println(product.getName() + ": " + maxQuantity);
         }
     }
-
-    //
 
     /**
      * Remove(Sell) a product and update the inventory accordingly
